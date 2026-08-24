@@ -24,4 +24,3 @@ class Cano:
         imagem_invertida = pygame.transform.flip(self.imagem, False, True)
         self.tela.blit(imagem_invertida, (self.x, self.cano_cima))
         self.tela.blit(self.imagem, (self.x, self.cano_baixo))
-

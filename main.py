@@ -35,4 +35,3 @@ while True:
 
     relogio.tick(60)
     pygame.display.flip()
-    
